@@ -1,0 +1,559 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;}
+
+body{
+	background-color: #487eb0;
+	background-image: url(../img/NIEVE.png); 
+}
+#main{
+	width: 80%;
+	height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#columna{
+	width: 700px;
+	height: 300px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid;
+  
+
+}
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 20%;
+          margin-top: 0%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;
+
+         }
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 20%;
+          margin-top: -27%;
+          background: 
+          url(../img/frozenolaf.jpeg) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -3%;
+          margin-top: -21%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -18%;
+          margin-top: -20%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -52%;
+          margin-top: -21.5%;
+          background: 
+          url(../img/olaf4.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.titulo{
+	font-size: 22px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 15px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 37%;
+ 	padding-top: 2.5%;
+ 	color: #40739e;
+ 	font-size: 60px;
+ font-family: 'Luckiest Guy', cursive;width: 960px;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+#header{
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+#nav{
+	width: 100%;
+	height: 80px;
+	background-color:#70a1ff ;
+	padding-left: 40%;
+	padding-top: 20px;
+	color: #1B1464;
+
+}
+#section{
+
+	width: 100%;
+	height: 460px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.nombre{
+
+	margin-top: 2%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 20px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+.up{
+width: 15%;
+height: 45px;
+margin-left: 85%;
+	margin-top: -10%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 100px) and (max-width: 767px) {
+	#main{
+	width: 90%;
+	height: 630px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#columna{
+	width: 250px;
+	height: 350px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 1;
+	background-color: #70a1ff;
+	column-rule: 2px solid #1B1464;
+	border-color: #1B1464;
+	border-width: 3px;
+	border-style: solid; }
+	#section{
+
+	width: 100%;
+	height: 460px;
+	padding-top: 5%;
+	background-color: #6a89cc;
+	margin-left: auto;
+	margin-right: auto;
+  
+
+}
+#nav{
+	width: 100%;
+	height: 80px;
+	background-color:#70a1ff ;
+	padding-left: 37%;
+	padding-top: 23px;
+	color: #1B1464;
+
+}
+
+.titulo{
+	font-size: 15px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 10px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: 5%;
+ 	color: #40739e;
+ 	font-size: 40px;
+ font-family: 'Luckiest Guy', cursive;width: 960px;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 20%;
+          margin-top: 0%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 90px 90px;
+
+         }
+.nombre{
+
+	margin-top: 3%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 15px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+.olaf1{
+	
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: 10%;
+          margin-top: -%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+}
+.olaf2{
+	display: none;
+}
+.frozen{
+	display: none;
+}
+.olaf{display: none;}
+
+.up{
+width: 20%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -11%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1000px)
+{
+
+
+#columna{
+	width: 450px;
+	height: 250px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	
+  }
+#header{
+	width: 100%;
+	height: 70px;
+	background-color: #ffffff;
+}
+
+.titulo{
+	font-size: 18px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 13px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: 5%;
+ 	color: #40739e;
+ 	font-size: 40px;
+ font-family: 'Luckiest Guy', cursive;width: 960px;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 10%;
+          margin-top:-3%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;
+
+         }
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 30%;
+          margin-left: -8%;
+          margin-top: -30%;
+          background: 
+          url(../img/frozenolaf.jpeg) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -31%;
+          margin-top: -27%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -45%;
+          margin-top: -30%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	display: none;
+
+
+}
+.up{
+width: 20%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -13%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+.nombre{
+
+	margin-top: 1%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 15px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
+}
+ 
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px)and (max-width: 2000px)
+{
+
+#main{
+	width: 70%;
+	height: 630px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#columna{
+	width: 850px;
+	height: 300px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	
+  }
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+}
+
+.titulo{
+	font-size: 25px;
+ font-family: 'Sigmar One', cursive;
+ color: #0c2461;
+
+}
+.parrafo{
+	font-size: 18px;
+	font-family: 'Crimson Pro', serif;
+}
+ #cv{
+ 	margin-left: 3%;
+ 	padding-top: -1%;
+ 	color: #40739e;
+ 	font-size: 50px;
+ font-family: 'Luckiest Guy', cursive;width: 960px;
+   
+   text-shadow: 10px 10px 10px #cccccc;
+ }
+.foto{
+	width: 580px;
+          height:170px;
+         padding-right: 50%;
+          margin-left: 25%;
+          margin-top:-2%;
+          background: 
+          url(../img/frozen.png) left top no-repeat;
+
+        
+          background-size: 120px 130px;
+
+         }
+.frozen{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: 30%;
+          margin-top: -20%;
+          background: 
+          url(../img/frozenolaf.jpeg) right bottom no-repeat;
+
+          background-size: 120px 130px;
+
+
+}
+.olaf{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: 10%;
+          margin-top: -16%;
+          background: 
+          url(../img/olaf2.png) right bottom no-repeat;
+
+          background-size: 90px 100px;
+
+
+}
+.olaf1{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -5%;
+          margin-top: -13%;
+          background: 
+          url(../img/olaf3.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.olaf2{
+	width: 580px;
+          height:170px;
+         padding-right: 10%;
+          margin-left: -35%;
+          margin-top: -16%;
+          background: 
+          url(../img/olaf4.png) right bottom no-repeat;
+
+          background-size: 130px 140px;
+
+
+}
+.up{
+width: 15%;
+height: 45px;
+margin-left: 80%;
+	margin-top: -7%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color: #60a3bc;
+		clear: both;
+		padding-left: 45%;
+}
+.nombre{
+
+	margin-top: 1%;
+	margin-left:50%;
+	padding-left: 80%;
+	font-size: 20px;
+		text-decoration: none;
+	color: #5758BB;
+
+}
